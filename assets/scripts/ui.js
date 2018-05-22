@@ -201,6 +201,7 @@ const destroyCompletedTodoFailure = () => {
 
 // BONUS FEATURE UI------------------------------------
 const getPublicTodosSuccess = (data) => {
+  // console.log(data)
   const publicTodos = []
   data.todos.forEach((el) => {
     publicTodos.unshift(el)
