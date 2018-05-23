@@ -84,7 +84,7 @@ const signOutFailure = () => {
 const getMyTodosSuccess = (data) => {
   const myTodos = []
   data.todos.forEach((el) => {
-    if (el.owner === store.user._id) {
+    if (el.owner._id === store.user._id) {
       if (el.completed === false) {
         myTodos.unshift(el)
       }
@@ -105,7 +105,7 @@ const getMyCompletedTodosSuccess = (data) => {
   // console.log(data)
   const myTodos = []
   data.todos.forEach((el) => {
-    if (el.owner === store.user._id) {
+    if (el.owner._id === store.user._id) {
       if (el.completed === true) {
         myTodos.unshift(el)
       }
