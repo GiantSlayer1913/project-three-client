@@ -7,6 +7,7 @@
     "content": "CC­BY­NC­SA 4.0"
   },
   "dependencies": {
+    "extend": "^3.0.2",
     "jquery": "^3.3.1",
     "lodash": "^4.17.11",
     "merge": "^1.2.1",
@@ -41,7 +42,7 @@
     "grunt-sass-lint": "^0.2.4",
     "grunt-shell": "^2.1.0",
     "grunt-webpack": "^3.0.2",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.1.0",
     "handlebars-loader": "^1.6.0",
     "html-loader": "^0.5.5",
     "load-grunt-config": "^1.0.1",
